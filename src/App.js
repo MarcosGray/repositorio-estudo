@@ -61,7 +61,6 @@ class App extends Component {
       })
     }
   }
-
   componentDidMount(){
     const { database, auth } = this.props
     this.setState({ isLoading: true })
