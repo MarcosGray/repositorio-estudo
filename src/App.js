@@ -86,18 +86,15 @@ class App extends Component {
       }
     })
   }
-
   logout = () => {
     const { auth } = this.props;
     auth.signOut()
   }
-
   changeScreen = (screen) => {
     this.setState({
       userScreen: screen
     })
   }
-
   render() {
     return (
       <div className='container mt-5'>
