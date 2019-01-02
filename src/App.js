@@ -31,7 +31,6 @@ class App extends Component {
     }
     database.ref().update(comments)
   }
-
   login = async(email, passwd) => {
     const { auth } = this.props
     this.setState({
@@ -47,7 +46,6 @@ class App extends Component {
       })
     }
   }
-
   createAccount = async(email, passwd) => {
     const { auth } = this.props
     this.setState({
